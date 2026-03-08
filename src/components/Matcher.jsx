@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 const apiurl = import.meta.env.VITE_API_URL;
-console.log(apiurl);
+// console.log(apiurl);
 import { GoogleGenAI } from "@google/genai";
 
 const MoodMatch = ({ setSearchText, setMood }) => {
